@@ -1,8 +1,8 @@
 Task 1: Basic Table
 Data Information:
-  ● You’ll be working with the data set here
-  ● The dataset provides information on ML Engineer salaries from 2020 to 2024
-  ● You can either create an API to fetch this data or just put this data in a file in your frontend codebase.
+  1. You’ll be working with the data set here
+  2. The dataset provides information on ML Engineer salaries from 2020 to 2024
+  3. You can either create an API to fetch this data or just put this data in a file in your frontend codebase.
 Description:
 Based on this data, create a table (call it “main table”) with the following columns:
   1. Year
