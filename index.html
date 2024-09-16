@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Data</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Add Chart.js -->
+    <style>
+        #jobDetailsTable {
+            margin-top: 20px;
+            display: none; /* Hidden by default */
+        }
+    </style>
+</head>
+<body>
+    <h2>Job Data from 2020 to 2024</h2>
+
+    <canvas id="lineGraph"></canvas> <!-- Line graph container -->
+
+    <table border="1" cellpadding="10px">
+        <caption>Main Table</caption>
+        <thead>
+            <tr>
+                <td>Year</td>
+                <td>Number Of Employees</td>
+                <td>Average Salaries</td>
+            </tr>
+        </thead>
+        <tbody class="tablebody">
+        </tbody>
+    </table>
+
+    <!-- Second table for job titles -->
+    <table id="jobDetailsTable" border="1" cellpadding="10px">
+        <caption>Job Titles and Counts</caption>
+        <thead>
+            <tr>
+                <td>Job Title</td>
+                <td>Number of Jobs</td>
+            </tr>
+        </thead>
+        <tbody class="jobDetailsBody">
+        </tbody>
+    </table>
+    <script src="./app.js"></script>
+</body>
+</html>
